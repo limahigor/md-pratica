@@ -15,6 +15,10 @@
     (y) = (temp);\
 }
 
+int coprimo(){
+	
+}
+
 int mdc_euclides(unsigned int x, unsigned int y){
     if(x < y)
         troca(x, y);
