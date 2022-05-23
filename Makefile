@@ -1,5 +1,4 @@
 all:
-	mkdir src
 	mkdir bin
 	mkdir build
 	gcc -o build/painel.o src/painel.c -c
@@ -9,7 +8,6 @@ all:
 	gcc -O2 -s -o bin/md-pratica build/painel.o build/comb_linear.o build/fatora_module.o build/md_module.o  -lm
 
 windows:
-	mkdir src
 	mkdir bin
 	mkdir build
 	gcc -o build/painel.o src/painel.c -c
