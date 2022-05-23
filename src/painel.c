@@ -1,5 +1,15 @@
+#ifdef __unix__         
+    #include <stdlib.h>
+
+#elif defined(_WIN32) || defined(WIN32) 
+
+   #define OS_Windows
+
+   #include <windows.h>
+
+#endif
+
 #include <stdio.h>
-#include <stdlib.h>
 #include "../includes/md_module.h"
 #include "../includes/comb_linear.h"
 #include "../includes/fatora_module.h"
@@ -200,7 +210,12 @@ int main(){
     _Bool loop = 1;
 
     while(loop){
-        system("clear");
+        #ifdef OS_Windows
+            system("cls");
+        #else
+            system("clear");
+        #endif
+
         menu();
         loop = opcao();
     }
