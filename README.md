@@ -7,6 +7,7 @@
 make
 ```
 #### Windows
+Funciona usando WSL ou MinGW
 
 ```
 make windows
