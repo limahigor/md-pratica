@@ -1,14 +1,14 @@
 ## Aula prática da materia de matemática discreta
 
 ### Instalação
-#### Linux
+#### Linux, WSL, VSCode
 
 ```
 make
 ```
-#### Windows
-Funciona usando WSL ou MinGW
+#### MinGW Windows
 
 ```
-make windows
+mingw-get mingw-32-make
+mingw32-make min
 ```
