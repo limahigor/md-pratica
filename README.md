@@ -1,13 +1,13 @@
-#MD
-##Aula prática da materia de matemática discreta
+# MD
+## Aula prática da materia de matemática discreta
 
-##Instalação
-###Linux
+## Instalação
+### Linux
 
 ```
 make
 ```
-###Windows
+### Windows
 
 ```
 make windows
